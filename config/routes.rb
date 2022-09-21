@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'users/show'
   resources :rooms do
     resources :messages
   end
@@ -8,7 +9,7 @@ Rails.application.routes.draw do
   devise_scope :user do
     get 'users', to: 'devise/sessions#new'
   end
-  get 'users/:id', to: 'users#show', as: :user
+  get 'user/:id', to: 'users#show', as: 'user'
   # Defines the root path route ("/")
-  # root "articles#index"
+  # root "articles#index
 end
