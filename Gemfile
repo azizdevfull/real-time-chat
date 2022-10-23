@@ -58,7 +58,7 @@ group :development do
   # gem "rack-mini-profiler"
 
   # Use sqlite3 as the database for Active Record
-  gem "sqlite3", "~> 1.4"
+  # gem "sqlite3", "~> 1.4"
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
@@ -71,11 +71,11 @@ group :test do
   gem "webdrivers"
 end
 
-group :production do
+# group :production do
 
 gem "pg", "~> 1.4"
 
-end
+# end
 
 gem "devise", "~> 4.8"
 

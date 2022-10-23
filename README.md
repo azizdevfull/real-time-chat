@@ -1,26 +1,3 @@
-# README
+redis://red-cdabmc02i3mnn0s9048g:6379
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# real-time-chat
-# real-time-chat
+postgres://turbochat_user:m2eskcLbT52FEzm0Jegf9n6hECGHZpLn@dpg-cdabkd2rrk09hip6af1g-a/turbochat
